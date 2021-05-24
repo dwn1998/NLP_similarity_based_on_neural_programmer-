@@ -14,4 +14,4 @@ draw_epoch_5.py,draw_epoch_15.py,draw_epoch_25.py: Draw the learning curve  of t
 similarity.py: calculate the similarity of the sentences in split_testing_data_10.txt and testing_eval_10.txt in two ways: original word frequency similarity calculation, and the similarity calculation with the neural programmer answer.
 Then write the two similarity "similarity_with_eval": xxx, "similarity_of_original_dataset": xxx, in the file similarity.txt with q1 and q2.
 
-split_datasets.py: split the big data set training_set_1000.txt to three datasets split_training_data_10.txt(training examples), split_testing_data_10.txt(testing examples (same problem size)) and split_testing_data_20.txt(testing examples (different problem sizes)). 
+split_datasets.py: split the big data set training_set_1000.txt to three datasets split_training_data_10.txt(training examples), split_testing_data_10.txt(testing examples (same problem size)) and split_testing_data_20.txt(testing examples (different problem sizes)). Remove it to the ../data directory while running it.
