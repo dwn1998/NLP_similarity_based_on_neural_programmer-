@@ -2,7 +2,7 @@
 NLP_similarity_based_on_neural_programmer  
 
 first build two extra directory out of the code directory ../data and ../models
-generate_datasets.py: create the big data set, with the set of my own, it can be runned in command with "python3 generate_datasets.py single 1000 ../data/training_set_1000"
+generate_datasets.py: create the big data set, with the set of my own, it can be runned in command with "python3 generate_datasets.py single 1000 ../data/training_set_1000.txt"
 
 train.py: run in the command "python3 train.py" to train the neural programmer, with the change of epoch range in the code, I can control the number of epochs.
 In my code I used 10 epochs.
